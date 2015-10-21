@@ -1,0 +1,152 @@
+@import "default";
+@import "progressbar";
+@import "timezone";
+
+body{
+	font-family: Raleway,'Microsoft Yahei',sans-serif;
+	color:#fff;
+}
+
+/* Common styles
+ * --------------------------------------- */
+ .section{
+ 	background-color: $baseColor;
+    color:$fontColor;
+ 	text-align: center;
+ 	transition:all .5s ease;
+
+ 	.title{
+ 		margin-top: 20px;
+ 		margin-bottom: 40px;
+ 		font-size: 65px;
+ 		font-weight: 600px;
+
+		// text-shadow:-1px -1px black, -1px 1px black, 1px -1px black, -1px 1px black;
+ 		text-shadow:1px 2px $baseColor,2px 4px #aee2d9;
+ 		// text-shadow: 2px 2px 1px #000,
+   //           -2px -2px 1px #000,
+   //           -2px 2px 1px #000,
+   //            2px -2px 1px #000;
+ 	}
+ }
+ /* Section one
+ * --------------------------------------- */
+ .section1{
+ 	.avatar{
+ 		width: 256px;
+ 		height: 256px;
+ 		border-radius: 50%;
+ 		border:10px solid rgba(255,255,255,.6);
+ 	}
+ 	.title{
+ 		margin-top: 20px;
+ 		margin-bottom: 40px;
+ 		font-size: 65px;
+ 		font-weight: 600px;
+
+		// text-shadow:-1px -1px black, -1px 1px black, 1px -1px black, -1px 1px black;
+ 		text-shadow:1px 2px $baseColor,2px 4px #aee2d9;
+ 		// text-shadow: 2px 2px 1px #000,
+   //           -2px -2px 1px #000,
+   //           -2px 2px 1px #000,
+   //            2px -2px 1px #000;
+ 	}
+ 	.subtitle{
+ 		font-size: 25px;
+ 	}
+ 	.email {
+ 		margin-top: 25px;
+	 	margin-bottom: 10px;
+	    font-size: 20px;
+ 		a{
+	 		text-decoration: none;
+	 		color:$highlightColor;
+	 		&:hover{
+				color:$hoverColor;
+	 		}
+ 		}
+ 	}
+ }
+/* Section two
+ --------------------------------------- */
+ /* Section three
+ --------------------------------------- */
+ .circle-img{
+ 	display:inline-block;
+ 	width: 100px;
+ 	height: 100px;
+ 	background-color: darken(#fff,10);
+    
+    padding:18px;
+ 	border-radius: 50%;
+ 	img{
+ 		width: 64px;
+ 		height: 64px;
+ 	}
+ }
+ .section3{
+ 	padding-left: 50px;
+ 	padding-right: 50px;
+ 	[class^="col-"]{
+ 		margin-bottom: 40px;
+ 	}
+ 	.title{
+ 		margin-bottom: 80px;
+ 	}
+ 	h2{
+ 		font-size: 30px;
+ 		text-align: left;
+ 		a{
+ 			text-decoration: none;
+ 			color:$hoverColor;
+ 		}
+ 	}
+ 	p{
+ 		font-size: 20px;
+		text-align: left;
+		margin-top: 15px;
+		line-height:1.4em; 
+ 	}
+
+ 	
+ }
+/* Section forth
+ --------------------------------------- */
+ .section4{
+ 	.title{
+ 		margin-bottom: 100px;
+ 	}
+ }
+ /* Section fifth
+ --------------------------------------- */
+ .section5{
+ 	.title{
+ 		margin-bottom: 80px;
+ 	}
+ 	p{
+ 		font-size: 30px;
+ 		margin :20px 0;
+ 	}
+ }
+ /* Section sixth
+ --------------------------------------- */
+ .section6{
+ 	p{
+ 		font-size: 25px;
+ 		line-height: 2.0em;
+ 	}
+ }
+  /* Section seventh
+ --------------------------------------- */
+ .section7{
+ 	.title{
+
+ 	}
+ 	p{
+ 		font-size: 20px;
+ 		width: 700px;
+ 		margin:0 auto;
+ 		line-height: 2.0em;
+ 		text-align: left;
+ 	}
+ }
